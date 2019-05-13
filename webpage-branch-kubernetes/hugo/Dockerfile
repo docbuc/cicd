@@ -1,4 +1,4 @@
-# Datei: cicd/hugo/Dockerfile (docbuc/hugo)
+# Datei: cicd/webpage/hugo/Dockerfile (docbuc/hugo)
 FROM alpine:3.9
 
 ENV HUGO_VERSION=0.55.5
