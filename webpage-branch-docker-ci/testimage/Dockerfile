@@ -1,11 +1,11 @@
-FROM debian:stretch
+FROM debian:buster
 
 ENV VALIDATOR_VERSION=18.11.5
-ENV HUGO_VERSION=0.55.5
+ENV HUGO_VERSION=0.59.1
 
 RUN apt-get update && apt-get -y install \
 	curl \
-	openjdk-8-jre \
+	openjdk-11-jre \
 	unzip \
 	linkchecker \
 	&& rm -rf /var/lib/apt/lists/*

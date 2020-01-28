@@ -1,5 +1,5 @@
 # Datei: cicd/webpage/linkchecker/Dockerfile (docbuc/linkchecker)
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update && apt-get install -y \
       linkchecker \
