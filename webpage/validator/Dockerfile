@@ -1,7 +1,7 @@
 # Datei: cicd/webpage/validator/Dockerfile (docbuc/validator)
-FROM openjdk:13-alpine
+FROM openjdk:16-alpine
 
-ENV VALIDATOR_VERSION=18.11.5
+ENV VALIDATOR_VERSION=20.6.30
 
 WORKDIR /src
 
